@@ -8,48 +8,48 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-//namespace global
-
-//[<AbstractClass; Sealed>]
-//[<global.System.Runtime.CompilerServices.CompilerGenerated>]
-//[<System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage>]
-//type GitVersionInformation() =
-//    static member Major = "1"
-//    static member Minor = "2"
-//    static member Patch = "3"
+namespace global
 
 [<AbstractClass; Sealed>]
 [<global.System.Runtime.CompilerServices.CompilerGenerated>]
-[<System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage>]
-module GitVersionInformation
-    let Major = "1"
-    let Minor = "2"
-    let Patch = "3"
-    let PreReleaseTag = "unstable.4"
-    let PreReleaseTagWithDash = "-unstable.4"
-    let PreReleaseLabel = "unstable"
-    let PreReleaseNumber = "4"
-    let WeightedPreReleaseNumber = "4"
-    let BuildMetaData = "5"
-    let BuildMetaDataPadded = "0005"
-    let FullBuildMetaData = "5.Branch.feature1.Sha.commitSha"
-    let MajorMinorPatch = "1.2.3"
-    let SemVer = "1.2.3-unstable.4"
-    let LegacySemVer = "1.2.3-unstable4"
-    let LegacySemVerPadded = "1.2.3-unstable0004"
-    let AssemblySemVer = "1.2.3.0"
-    let AssemblySemFileVer = "1.2.3.0"
-    let FullSemVer = "1.2.3-unstable.4+5"
-    let InformationalVersion = "1.2.3-unstable.4+5.Branch.feature1.Sha.commitSha"
-    let BranchName = "feature1"
-    let EscapedBranchName = "feature1"
-    let Sha = "commitSha"
-    let ShortSha = "commitShortSha"
-    let NuGetVersionV2 = "1.2.3-unstable0004"
-    let NuGetVersion = "1.2.3-unstable0004"
-    let NuGetPreReleaseTagV2 = "unstable0004"
-    let NuGetPreReleaseTag = "unstable0004"
-    let VersionSourceSha = "versionSourceSha"
-    let CommitsSinceVersionSource = "5"
-    let CommitsSinceVersionSourcePadded = "0005"
-    let CommitDate = "2014-03-06"
+[<global.System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage>]
+type GitVersionInformation() =
+    static member Major = "1"
+    static member Minor = "2"
+    static member Patch = "3"
+
+//[<AbstractClass; Sealed>]
+//[<global.System.Runtime.CompilerServices.CompilerGenerated>]
+//[<global.System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage>]
+//module GitVersionInformation
+//    let Major = "1"
+//    let Minor = "2"
+//    let Patch = "3"
+//    let PreReleaseTag = "unstable.4"
+//    let PreReleaseTagWithDash = "-unstable.4"
+//    let PreReleaseLabel = "unstable"
+//    let PreReleaseNumber = "4"
+//    let WeightedPreReleaseNumber = "4"
+//    let BuildMetaData = "5"
+//    let BuildMetaDataPadded = "0005"
+//    let FullBuildMetaData = "5.Branch.feature1.Sha.commitSha"
+//    let MajorMinorPatch = "1.2.3"
+//    let SemVer = "1.2.3-unstable.4"
+//    let LegacySemVer = "1.2.3-unstable4"
+//    let LegacySemVerPadded = "1.2.3-unstable0004"
+//    let AssemblySemVer = "1.2.3.0"
+//    let AssemblySemFileVer = "1.2.3.0"
+//    let FullSemVer = "1.2.3-unstable.4+5"
+//    let InformationalVersion = "1.2.3-unstable.4+5.Branch.feature1.Sha.commitSha"
+//    let BranchName = "feature1"
+//    let EscapedBranchName = "feature1"
+//    let Sha = "commitSha"
+//    let ShortSha = "commitShortSha"
+//    let NuGetVersionV2 = "1.2.3-unstable0004"
+//    let NuGetVersion = "1.2.3-unstable0004"
+//    let NuGetPreReleaseTagV2 = "unstable0004"
+//    let NuGetPreReleaseTag = "unstable0004"
+//    let VersionSourceSha = "versionSourceSha"
+//    let CommitsSinceVersionSource = "5"
+//    let CommitsSinceVersionSourcePadded = "0005"
+//    let CommitDate = "2014-03-06"

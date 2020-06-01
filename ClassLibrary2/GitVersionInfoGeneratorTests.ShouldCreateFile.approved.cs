@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 [global::System.Runtime.CompilerServices.CompilerGenerated]
-[System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+[global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 static class GitVersionInformation
 {
     public static string Major = "1";
