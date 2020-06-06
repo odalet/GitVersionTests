@@ -13,10 +13,16 @@ namespace global
 [<AbstractClass; Sealed>]
 [<global.System.Runtime.CompilerServices.CompilerGenerated>]
 [<global.System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage>]
-type GitVersionInformation() =
-    static member Major = "1"
-    static member Minor = "2"
-    static member Patch = "3"
+type GitVersionInformation =
+    
+    static member Major 
+        with [<global.System.Runtime.CompilerServices.CompilerGenerated; global.System.Diagnostics.DebuggerNonUserCode>] get() = "1"
+    
+    static member Minor
+        with [<global.System.Runtime.CompilerServices.CompilerGenerated; global.System.Diagnostics.DebuggerNonUserCode>] get() = "2"
+    
+    static member Patch
+        with [<global.System.Runtime.CompilerServices.CompilerGenerated; global.System.Diagnostics.DebuggerNonUserCode>] get() = "3"
 
 //[<AbstractClass; Sealed>]
 //[<global.System.Runtime.CompilerServices.CompilerGenerated>]
