@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ILMerge" Version="3.0.40" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.vbproj" />
+    <ProjectReference Include="..\ClassLibrary2\ClassLibrary2.csproj" />
+    <ProjectReference Include="..\ClassLibrary3\ClassLibrary3.fsproj" />
+  </ItemGroup>
+
+  <Target Name="ILMerge" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
+    <!-- ndebug option because of this: https://mitchwheat.com/2018/05/25/create-a-single-net-executable-with-multiple-assemblies/ -->
+    <Exec Command="$(ILMergeConsolePath) /ndebug ^
+          /out:$(OutputPath)\$(AssemblyName).exe ^
+          $(OutputPath)\$(AssemblyName).exe ^
+          $(OutputPath)\ClassLibrary1.dll ^
+          $(OutputPath)\ClassLibrary2.dll ^
+          $(OutputPath)\ClassLibrary3.dll ^
+          /allowDup" />
+  </Target>
+</Project>
