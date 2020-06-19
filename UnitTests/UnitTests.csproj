@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <!--<TargetFramework>net472</TargetFramework>-->
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">
@@ -34,5 +35,6 @@
     <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.vbproj" />
     <ProjectReference Include="..\ClassLibrary2\ClassLibrary2.csproj" />
     <ProjectReference Include="..\ClassLibrary3\ClassLibrary3.fsproj" />
+    <ProjectReference Include="..\NetStandard10\NetStandard10.csproj" />
   </ItemGroup>
 </Project>

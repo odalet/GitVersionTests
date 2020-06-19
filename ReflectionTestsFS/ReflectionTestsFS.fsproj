@@ -14,5 +14,9 @@
     <ProjectReference Include="..\ClassLibrary2\ClassLibrary2.csproj" />
     <ProjectReference Include="..\ClassLibrary3\ClassLibrary3.fsproj" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.7.2" />
+  </ItemGroup>
 
 </Project>

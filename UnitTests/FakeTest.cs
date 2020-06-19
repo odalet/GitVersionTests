@@ -19,10 +19,7 @@ namespace UnitTests
             Assert.Equal(4, ClassLibrary3.Class1.Add(2, 2));
 
         [Fact]
-        public void FS_code_test2()
-        {
-            var instance = new ClassLibrary3.Class1();
-            Assert.NotNull(instance);
-        }
+        public void CS_netstd10_code_test() =>
+            Assert.Equal(4, NetStandard10.Class1.Add(2, 2));
     }
 }

@@ -1,12 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <!--<TargetFramework>netstandard2.0</TargetFramework>-->
+    <!-- List of targets retrieved here: https://docs.microsoft.com/en-us/dotnet/standard/frameworks -->
+    <!-- netstandard1.0;netstandard1.1;netstandard1.2;netstandard1.3;netstandard1.4;netstandard1.5;netstandard1.6;net35;net40;net403 -->
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net45;net451;net452;net46;net461;net462;net47;net471;net472</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\GitVersionInfoTest.fs" Link="GitVersionInfoTest.fs" />
     <Compile Include="*.fs" />
   </ItemGroup>
+
+  <ItemGroup />
 
   <ItemGroup>
     <PackageReference Update="FSharp.Core" Version="4.7.2" />
