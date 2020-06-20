@@ -36,7 +36,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		GitVersionInfoTest.vb = GitVersionInfoTest.vb
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStandard10", "NetStandard10\NetStandard10.csproj", "{CEE2779E-67CB-4D89-AF5A-C25B458C1E84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStandard10", "NetStandard10\NetStandard10.csproj", "{CEE2779E-67CB-4D89-AF5A-C25B458C1E84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibGit2SharpTestLib", "LibGit2SharpTestLib\LibGit2SharpTestLib.csproj", "{3B6C8543-7409-4B23-BF7C-B24D16691AF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibGit2SharpTestApp", "LibGit2SharpTestApp\LibGit2SharpTestApp.csproj", "{FD1EDF04-6282-496E-AAF7-EA90FAA941B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -100,6 +104,14 @@ Global
 		{CEE2779E-67CB-4D89-AF5A-C25B458C1E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEE2779E-67CB-4D89-AF5A-C25B458C1E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEE2779E-67CB-4D89-AF5A-C25B458C1E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6C8543-7409-4B23-BF7C-B24D16691AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6C8543-7409-4B23-BF7C-B24D16691AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6C8543-7409-4B23-BF7C-B24D16691AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6C8543-7409-4B23-BF7C-B24D16691AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1EDF04-6282-496E-AAF7-EA90FAA941B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1EDF04-6282-496E-AAF7-EA90FAA941B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1EDF04-6282-496E-AAF7-EA90FAA941B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1EDF04-6282-496E-AAF7-EA90FAA941B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
